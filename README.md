@@ -1,5 +1,7 @@
 # nice tree
 
+![alt text](docs/nicetree_logo.png)
+
 A robust Python utility that functions like the Unix `tree` command with cross-platform support (macOS, Linux, and Windows). Display directory hierarchies in a beautiful, formatted structure with extensive customization options.
 
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
