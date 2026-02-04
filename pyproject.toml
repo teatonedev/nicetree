@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nice-tree"
+version = "1.0.0"
+description = "A Python utility that functions as the tree Linux command with cross-platform support"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Batt teatonedev", email = "abbilginn@hotmail.com"}
+]
+keywords = ["tree", "directory", "cli", "utility"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/teatonedev/nicetree"
+"Bug Tracker" = "https://github.com/teatonedev/nicetree/issues"
+"Source Code" = "https://github.com/teatonedev/nicetree"
+"Documentation" = "https://github.com/teatonedev/nicetree#readme"
+
+[project.scripts]
+nice-tree = "nicetree.cli:main"
+nicetree = "nicetree.cli:main"
+
+[tool.setuptools]
+packages = ["nicetree"]
+
+[tool.setuptools.package-data]
+nicetree = ["py.typed"]
