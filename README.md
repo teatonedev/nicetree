@@ -22,6 +22,7 @@ A robust Python utility that functions like the Unix `tree` command with cross-p
 
 ## Installation
 
+[![PyPi Page] https://pypi.org/project/nice-tree/
 ### From PyPI (Recommended)
 
 ```bash
